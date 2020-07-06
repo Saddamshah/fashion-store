@@ -1,68 +1,42 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### E-commerce Website
 
-## Available Scripts
 
-In the project directory, you can run:
+### `Technical Overview`
+1. API Web application where Backend is created on Node server and frontend is built on react.js
+2. Full Authentication system using JWT, where each signup data is stored on MongoDB database using mongo atlas.
+3. Once the user logins, we store their details in the local storage which includes user Id, email id, and name.
+4. No password is strored in the browser. It will only be stored in the database after encryption, using crypto and UUID.
+5. The user Model has purchase array, where every product purchased by the user will be stored on the user model
+6. Product Model stores every product data, and it also stores the reference id of categories the product belongs to.
+7. Every Image will be stored in a binary format (Buffer data) using formidable.
+9. For Payment, Braintree DropUI is used. Every order detail is stored in the Order model.
+10. Every user has a role 0 by default whereas the role of the admin is one. Below is the list of the changes that the admin can do:
 
-### `yarn start`
+view all the orders,
+create, update & delete all categories.
+create,update & delete all products.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ `Frontend Technologies`
+1. HTML 5
+2. CSS  3
+3. bootstrap 4
+4. JavaScript ES
+5. React.js
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+`Backend Technologies`
+1. Node.js
+2. Express.js
+3. MongoDB
+4. JWT
 
-### `yarn test`
+### Non-technical Overview
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. A full fledged E-commerce Web Application which has 13 unique pages including two dashboards and one payment gateway.
+2. An online E-commerce store where users can view all the products that are differentiated by their categories.
+3. Users can add/remove multiple products in/from their carts.
+4. On the cart page, users will be able to see the list of the selected products and their details.
+5. Users will also be able to do swift transactions using NetBanking, or any domestic or international cards. Eg: VISA Master American Express.
+6. All the orders made by the users will be enlisted on their dashboards.
+7. Without login, he won't be able to initiate any transaction but can add/remove products in/from their carts.
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Website URL : https://fashionstoreproject.netlify.app/
