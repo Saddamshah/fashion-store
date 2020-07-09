@@ -29,7 +29,7 @@ create,update & delete all products.
 3. MongoDB
 4. JWT
 
-### Non-technical Overview
+### `Non-technical Overview`
 
 1. A full fledged E-commerce Web Application which has 13 unique pages including two dashboards and one payment gateway.
 2. An online E-commerce store where users can view all the products that are differentiated by their categories.
@@ -38,5 +38,14 @@ create,update & delete all products.
 5. Users will also be able to do swift transactions using NetBanking, or any domestic or international cards. Eg: VISA Master American Express.
 6. All the orders made by the users will be enlisted on their dashboards.
 7. Without login, he won't be able to initiate any transaction but can add/remove products in/from their carts.
+
+### Payment details
+Card No : 378282246310005
+Card Type : American Express
+Expiration Date: 12 / 22
+
+### Admin Access
+Email Id: admin@admin.com
+Password: 12345
 
 ### Website URL : https://fashionstoreproject.netlify.app/
