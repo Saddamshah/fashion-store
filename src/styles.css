@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap");
 
 /* genaral style */
 body {
   background: #f1f3f6;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .heading {
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
 .productTitle {
@@ -17,15 +17,15 @@ body {
 }
 
 .grayBG {
-  background-color: #bac0c9 ;
+  background-color: #bac0c9;
 }
 
 .yellowBG {
-  background-color: #ffe500 ;
+  background-color: #ffe500;
 }
 
 .orangeBG {
-  background-color: #ff9f00 ;
+  background-color: #ff9f00;
 }
 
 .blueBG {
@@ -57,7 +57,7 @@ body {
   margin-bottom: 100px !important;
 }
 
-.hovered:hover{
+.hovered:hover {
   transform: scale(1.05);
   cursor: pointer;
 }
@@ -74,13 +74,22 @@ body {
   opacity: 1;
 }
 
+.loadingStyle {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* navbar style */
 nav .navbar-toggler:focus {
-  outline:#ffe500;
+  outline: #ffe500;
   border: 1px solid #ededed;
 }
 
-nav .nav-link, nav {
+nav .nav-link,
+nav {
   font-size: 18px;
   letter-spacing: 1.4px;
 }
@@ -105,11 +114,10 @@ nav .nav-link, nav {
   text-align: right;
 }
 
-
-
-@media(max-width: 767px){
-  .footerImage, .footerText {
+@media (max-width: 767px) {
+  .footerImage,
+  .footerText {
     margin-top: 5px;
-    text-align: center ;
+    text-align: center;
   }
 }
