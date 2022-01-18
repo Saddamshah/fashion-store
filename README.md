@@ -46,6 +46,6 @@ Expiration Date: 12 / 22
 
 ### Admin Access
 Email Id: admin@admin.com
-Password: 12345
+contact admin for password +918369123472
 
 ### Website URL : https://fashionstoreproject.netlify.app/
